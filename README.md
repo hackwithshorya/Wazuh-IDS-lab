@@ -84,6 +84,7 @@ From the Wazuh Gui interface, you’ll see that a new agent has been added.
 
 <img width="1894" height="737" alt="added" src="https://github.com/user-attachments/assets/ad9bc598-bf06-4b5c-9528-1f2379c86b71" />
 
+# Testing
 
 Step 3: Perform SSH brute force attack from Kali
 
