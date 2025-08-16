@@ -98,3 +98,10 @@ From the Wazuh interface we can visualize the alerts of the brute force attack.
 
 <img width="1916" height="864" alt="Screenshot 2025-08-13 225101" src="https://github.com/user-attachments/assets/28f24fe1-2399-491a-9104-7f0408eb5b11" />
 
+# Conclusion 
+
+This project demonstrated the effectiveness of Wazuh as an Endpoint Detection and Response (EDR) system. By setting up the Wazuh server on Kali Linux and deploying the Wazuh agent on an Ubuntu virtual machine (VMware), we were able to detect and respond to a simulated brute force attack. The project highlights the importance of proactive security measures in safeguarding systems against potential threats.
+
+## References
+
+[- Wazuh Documentation](https://documentation.wazuh.com/current/index.html)
