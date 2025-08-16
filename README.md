@@ -11,15 +11,15 @@ Setup
 1- Setting up Ubuntu on VMware
 Ubuntu will act as the agent machine in our project. First, we need to install Ubuntu on VMware.
 Steps:
-1. Download Ubuntu ISO
+2. Download Ubuntu ISO
   Download the Ubuntu Desktop ISO 
   👉 https://ubuntu.com/download/desktop/thank-you?version=24.04.3&architecture=amd64&lts=true
 
-2.Open VMware Workstation / Player
+3.Open VMware Workstation / Player
  - Click on Create a New Virtual Machine.
  - Select Installer disc image (ISO) and browse the downloaded Ubuntu ISO.
 
- 3.Configure VM Settings
+ 4.Configure VM Settings
 -Name the VM (e.g., Ubuntu-Agent).
 -Allocate at least:
 
@@ -39,15 +39,15 @@ Post-Installation Setup
 Install VMware Tools (for smooth clipboard & resolution).
 ✅ Now Ubuntu is ready as the agent machine, where we will install the Wazuh agent later.
 
-Installing Wazuh 
+STEP 1 - Installing Wazuh 
 
-Step 1: Update Kali
+1: Update Kali
 -sudo apt update && sudo apt upgrade -y
 
-Step 2: Download and run Wazuh installation assistant
+2: Download and run Wazuh installation assistant
 curl -sO https://packages.wazuh.com/4.12/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
 
-Step 3: Wait for setup to finish. At the end, it will show:
+3: Wait for setup to finish. At the end, it will show:
 INFO: --- Summary ---
 INFO: You can access the web interface https://<KALI_IP>
       User: admin
