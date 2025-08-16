@@ -39,7 +39,7 @@ Post-Installation Setup
 Install VMware Tools (for smooth clipboard & resolution).
 ✅ Now Ubuntu is ready as the agent machine, where we will install the Wazuh agent later.
 
-STEP 1 - Installing Wazuh 
+# STEP 1 - Installing Wazuh 
 
 1: Update Kali
 -sudo apt update && sudo apt upgrade -y
@@ -60,7 +60,7 @@ https://<KALI_IP>
 <img width="1234" height="569" alt="dashboard" src="https://github.com/user-attachments/assets/2364a3b8-b0dc-435a-9f7e-cc0194f4050b" />
 
 
-STEP-2  ( Installing Wazuh Agent on Ubuntu VM )
+# STEP-2  ( Installing Wazuh Agent on Ubuntu VM )
 
  From the Wazuh GUI interface, proceed to Agents > Deploy new agents
 
