@@ -23,14 +23,14 @@ Steps:
 -Name the VM (e.g., Ubuntu-Agent).
 -Allocate at least:
 
- 2 GB RAM (better 4 GB)
+ 2GB RAM (better 4 GB)
 -2 CPUs
 -25 GB Disk Space
 
  4.Install Ubuntu
 -Start the VM and follow on-screen instructions.
 -Choose Normal Installation.
--Set up your username and password (e.g., shorya).
+-Set up your username and password 
 
 Post-Installation Setup
 -Once Ubuntu boots up, update the system:
