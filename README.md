@@ -12,8 +12,8 @@ Setup
 Ubuntu will act as the agent machine in our project. First, we need to install Ubuntu on VMware.
 Steps:
 1. Download Ubuntu ISO
-  Download the Ubuntu Desktop ISO (24.04.3 LTS):
-  👉 Ubuntu 24.04.3 ISO Download
+  Download the Ubuntu Desktop ISO 
+  👉 https://ubuntu.com/download/desktop/thank-you?version=24.04.3&architecture=amd64&lts=true
 
 2.Open VMware Workstation / Player
  - Click on Create a New Virtual Machine.
