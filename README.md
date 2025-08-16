@@ -10,7 +10,7 @@ Setup
 
 1- Setting up Ubuntu on VMware
 Ubuntu will act as the agent machine in our project. First, we need to install Ubuntu on VMware.
-Steps:
+
 2. [Download Ubuntu ISO](https://ubuntu.com/download/desktop/thank-you?version=24.04.3&architecture=amd64&lts=true)
 
 3.Open VMware Workstation / Player
